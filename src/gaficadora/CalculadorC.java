@@ -5,6 +5,7 @@
  */
 package gaficadora;
 
+//hfhfjh
 /**
  *
  * @author NOBLEX
@@ -12,6 +13,7 @@ package gaficadora;
 public class CalculadorC {
 
     private javax.swing.JTextField jTextField1;
+
     double disp[] = new double[10];
     double[] memoria = new double[50];
     int i = 0;
