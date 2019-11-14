@@ -1,7 +1,5 @@
 package paquete;
 
-
-
 import java.awt.Image;
 import java.util.logging.Level;
 import java.util.logging.Logger;
@@ -232,7 +230,7 @@ public class GraficaTest extends javax.swing.JFrame {
     }//GEN-LAST:event_jButton3ActionPerformed
 
     private void jButton4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton4ActionPerformed
-        // TODO add your handling code here:
+     
     }//GEN-LAST:event_jButton4ActionPerformed
 
     private void jButton4MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton4MouseClicked

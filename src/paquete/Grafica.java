@@ -15,31 +15,31 @@ public class Grafica {
     JFreeChart grafica;
     XYSeriesCollection datos = new XYSeriesCollection();
     String titulo;
-    String etiquetax;
-    String etiquetay;
+    String x;
+    String y;
 
-    public Grafica(String t, String x, String y) {
+    public Grafica(String t, String x1, String y1) {
         titulo = t;
-        etiquetax = x;
-        etiquetay = y;
+        x = x1;
+        y = y1;
         grafica = ChartFactory.createXYLineChart(titulo, x, y,
                 datos, PlotOrientation.VERTICAL, true, true, true);
 
     }
 
     public Grafica() {
-        this("sin titulo", "x", "y");
+        this("", "x", "y");
 
     }
 
     public void agregarGrafica(String id, double[] x, double[] y) {
-        XYSeries s = new XYSeries(id);
+        XYSeries a = new XYSeries(id);
         int n = x.length;
         for (int i = 0; i < n; i++) {
-            s.add(x[i], y[i]);
+            a.add(x[i], y[i]);
 
         }
-        datos.addSeries(s);
+        datos.addSeries(a);
     }
 
     public void crearGrafica(String id, double[] x, double[] y) {
